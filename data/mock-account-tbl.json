@@ -1,0 +1,30 @@
+{
+    "kikisor": {
+        "id": "593e52d6-a734-5980-81e6-8ff2b9c57833",
+        "fullName": "Kiki Sor",
+        "hash": "$2b$12$i87v.vvZ8uRpOIMHG19yHOwNzuQrHtq/hZeOXkK7wa5VXIwKfJixm",
+        "userLevel": 0,
+        "createdAt": 1773984589
+    },
+    "patina": {
+        "id": "fff4863a-3179-56f7-93a4-573e594d9ff1",
+        "fullName": "Patina",
+        "hash": "$2b$12$L22koKaFMf88vXshJA1iZOoqW2uUCFQ6lS8UNkTuZ5cjkFVrfYoDi",
+        "userLevel": 1,
+        "createdAt": 1773984667
+    },
+    "tintin": {
+        "id": "dc7322ed-271b-5eab-8b0c-d28356f94b86",
+        "fullName": "Tintin",
+        "hash": "$2b$12$xcvLjfZGV8sMzd7B75fr1el.JcvCZ0tRcye7JjucYnHQksZO9FHMy",
+        "userLevel": 2,
+        "createdAt": 1773984699
+    },
+    "pulak": {
+        "id": "f140115f-df68-54aa-81b6-dbb2664933cf",
+        "fullName": "Pulak",
+        "hash": "$2b$12$swOM/fV1fgeRVc3Gk93AWOBM08r/fRHn2Jb01zqHnmZtAVkMkgbi2",
+        "userLevel": 3,
+        "createdAt": 1773984753
+    }
+}
