@@ -54,7 +54,7 @@ def get_contents():
     expected_token = generate_access_token(uname, user_level)
     if not (0 <= user_level <= 4) or access_token != expected_token:
         return set_cors({"message": "401: Unauthorized"}), 401
-    return set_cors({"message": "Contents retrieved successfully."})
+    return set_cors({"message": "Contents retrieved successfully.","contents": load_contents()})
 
 @app.errorhandler(404)
 def page_not_found(e):
