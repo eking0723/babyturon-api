@@ -8,7 +8,7 @@ from datetime import datetime
 import bcrypt
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-app = Flask("bleedingheart-api")
+app = Flask("babyturon-api")
 CORS(app)
 
 @app.route("/")
@@ -89,11 +89,13 @@ def generate_access_token(uname, user_level):
     message = (uname + str(user_level) + today).encode()
 
     return hashlib.sha1(message).hexdigest()
+
 def load_contents():
     """ Load all contents. """
     # Use actual No/SQL in real projects.
     with open(f"data/mock-content-tbl.json") as file:
         return json.load(file)
+    
 def set_cors(payload):
     """ Wraps payload in a JSON response with CORS headers. """
 
